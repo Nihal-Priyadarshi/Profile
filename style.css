@@ -1,63 +1,198 @@
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf)
-      format("truetype");
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Forest+White_River.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat";
+
+/*#header{
+    box-sizing: border-box;
+    border: 5px solid;
+    border-radius: 200px 30px 200px 30px / 100px 20px 100px 20px;
+    height: 10vh;
+    width: 100vw;
+    background-color: palegoldenrod;
+}*/
+
+.header{
+    width: 100vw;
+    height: 60vh;
 }
-h4 {
-  text-align: center;
-  background-color: rgba(45, 45, 45, 0.1);
-  padding: 10px;
-  font-size: 27px;
-  text-transform: uppercase;
+
+.one .two .three{
+    display: flex;
+    align-items: center;
 }
+
+.one #one{
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 30vw;
+    height: 60vh;
+    float: left;
+}
+
+#one:hover{
+    border-radius: 20%;
+    filter: brightness(120%);
+    filter: contrast(130%);
+}
+
+.two{
+    box-sizing: border-box;
+    border-radius: 100px 200px 100px 200px / 200px 100px 200px 100px;
+    width: 70vw;
+    height: 24vh;
+    float: right;
+    background-image: url(./Wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.two:hover{
+    background-image: url(./Wooden.jpg);
+    filter: brightness(200%);
+    filter: contrast(170%);
+}
+
+.three{
+    box-sizing: border-box;
+    border-radius: 200px 100px 200px 100px / 100px 200px 100px 200px;
+    width: 70vw;
+    height: 36vh;
+    float: right;
+    background-image: url(./Wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 25px;
+    text-align: center;
+    color: darkblue;
+}
+
+.three:hover{
+    background-image: url(./Wooden.jpg);
+    filter: brightness(200%);
+    filter: contrast(170%);
+    color: greenyellow;
+}
+
+.overview{
+    box-sizing: border-box;
+    border-radius: 100px 100px 100px 100px / 300px 300px 100px 100px;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(./Animals.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 20px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.overview h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview:hover{
+    background-image: url(./Zebra.png);
+    filter: brightness(150%);
+    filter: contrast(170%);
+    color: rgb(250, 0, 0);
+}
+
+.overview a{
+    color: darkgreen;
+    font-size: 25px;
+}
+
+a:link{
+    color: deepskyblue;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: plum;
+}
+
+.contact{
+    height: 10vh;
+    width: 100vw;
+    background-image: url(./Wood-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.icon-row{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(./Wood-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 i {
-  color: #fff;
+    color: red;
+  }
+
+.icon-row i{
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 44px;
+    margin: 0px 20px;
+    padding: 20px 30px;
+    transition: all 400ms ease-in-out;
 }
 
-.fixed-content {
-  width: auto;
-
-  float: none;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 40px;
-  text-align: center;
-}
-.header {
-  background-repeat: no-repeat, repeat;
-
-  color: #fff;
-  max-height: 500px;
-  height: 100%;
-  background-color: #ccc;
-}
-.header .port {
-  border-radius: 50%;
-  border: 6px #ccc solid;
-  width: 16%;
-}
-.icon-row {
-  margin: 45px auto;
-  width: 100%;
-}
-.icon-row i {
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 44px;
-  margin: 0px 20px;
-  padding: 20px 30px;
-  transition: all 400ms ease-in-out;
-}
 .icon-row i:hover {
-  background: #fff;
-  color: #ca5549;
+    background: #fff;
+    color: lime;
+}
+
+.footer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(./Wood-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer i{
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 44px;
+    margin: 0px 20px;
+    padding: 20px 30px;
+    transition: all 400ms ease-in-out;
+}
+
+.footer i:hover {
+    background: #fff;
+    color: lime;
 }
