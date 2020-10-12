@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(./Forest+White_River.jpg);
+    background-image: url(./Images/Forest+White_River.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,7 +49,7 @@ body{
     width: 70vw;
     height: 24vh;
     float: right;
-    background-image: url(./Wood.jpg);
+    background-image: url(./Images/Wood.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -58,7 +58,7 @@ body{
 }
 
 .two:hover{
-    background-image: url(./Wooden.jpg);
+    background-image: url(./Images/Wooden.jpg);
     filter: brightness(200%);
     filter: contrast(170%);
 }
@@ -69,7 +69,7 @@ body{
     width: 70vw;
     height: 36vh;
     float: right;
-    background-image: url(./Wood.jpg);
+    background-image: url(./Images/Wood.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,7 +79,7 @@ body{
 }
 
 .three:hover{
-    background-image: url(./Wooden.jpg);
+    background-image: url(./Images/Wooden.jpg);
     filter: brightness(200%);
     filter: contrast(170%);
     color: greenyellow;
@@ -90,7 +90,7 @@ body{
     border-radius: 100px 100px 100px 100px / 300px 300px 100px 100px;
     width: 100vw;
     height: 50vh;
-    background-image: url(./Animals.png);
+    background-image: url(./Images/Animals.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +106,7 @@ body{
 }
 
 .overview:hover{
-    background-image: url(./Zebra.png);
+    background-image: url(./Images/Zebra.png);
     filter: brightness(150%);
     filter: contrast(170%);
     color: rgb(250, 0, 0);
@@ -136,7 +136,7 @@ a:active{
 .contact{
     height: 10vh;
     width: 100vw;
-    background-image: url(./Wood-1.jpg);
+    background-image: url(./Images/Wood-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -149,7 +149,7 @@ a:active{
     margin: auto;
     display: flex;
     justify-content: center;
-    background-image: url(./Wood-1.jpg);
+    background-image: url(./Images/Wood-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -177,7 +177,7 @@ i {
     margin: auto;
     display: flex;
     justify-content: center;
-    background-image: url(./Wood-1.jpg);
+    background-image: url(./Images/Wood-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
